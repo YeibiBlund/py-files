@@ -19,10 +19,10 @@ def findContent(text, word):
 def quijote_count(text):
     #text = text.lower()      # .lower  CONVIERTE UN TEXTO A MINUSCULAS. (NO ES NECESARIO USARLO PORQUE QUIJOTE Y SANCHO SIEMPRE VAN EN MAYUSCULAS)
     
-    quijote_count = text.count("Quijote")
-    sancho_count = text.count("Sancho")
+    quijote = text.count("Quijote")
+    sancho = text.count("Sancho")
     
-    return quijote_count, sancho_count
+    return quijote, sancho
 
 
 def modificarYcrearTxt(test):
